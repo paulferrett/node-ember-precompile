@@ -1,16 +1,16 @@
-Precompile Handlebars templates for Ember.js
+Precompile Ember.js templates with Handlebars 1.3.0 which supports Subexpressions, allowing for ember query query params.
 
 Install
 -------
 
-    npm install -g ember-precompile
+    npm install -g ember-precompilex
 
 Usage
 -----
 
 This module has a similar interface to the Handlebars precompiler
 
-    ember-precompile template... [-f OUTPUT_FILE]
+    ember-precompilex template... [-f OUTPUT_FILE]
 
 If output file is omitted, the compiled template(s) will be printed to stdout.
 
