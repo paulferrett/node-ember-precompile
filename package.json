@@ -1,6 +1,6 @@
 {
     "name" : "ember-precompile",
-    "version" : "0.2.4",
+    "version" : "0.2.5",
     "description" : "Precompile Ember.js templates with a Handlebars-like UI",
     "main" : "./src/index.js",
 
@@ -17,16 +17,16 @@
 
     "dependencies": {
         "optimist": "0.3.4",
-       "jquery": "1.8.x"
+        "jquery": "1.8.x"
     },
 
     "repository" : {
         "type" : "git",
-        "url" : "http://github.com/gabrielgrant/node-ember-precompile"
+        "url" : "http://github.com/paulferrett/node-ember-precompile"
     },
 
     "author" : "Gabriel Grant <g@briel.ca>",
-    
+
     "contributors" : [{
         "name": "Jeff Dean",
         "email": "jeff@zilkey.com"
@@ -42,6 +42,9 @@
     }, {
         "name": "Roland Ekström",
         "email": "peshis@gmail.com"
+    }, {
+        "name": "Paul Ferrett",
+        "email": "paul@paulferrett.com"
     }],
 
     "license": "LGPL"
