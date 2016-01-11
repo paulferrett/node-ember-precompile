@@ -56,11 +56,12 @@ var __module3__ = (function(__dependency1__) {
     ">": "&gt;",
     '"': "&quot;",
     "'": "&#x27;",
-    "`": "&#x60;"
+    "`": "&#x60;",
+    "=": "&#x3D;"
   };
 
-  var badChars = /[&<>"'`]/g;
-  var possible = /[&<>"'`]/;
+  var badChars = /[&<>"'`=]/g;
+  var possible = /[&<>"'`=]/;
 
   function escapeChar(chr) {
     return escape[chr] || "&amp;";
